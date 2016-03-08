@@ -7,6 +7,20 @@ It has been developed with RS485 usage in mind, but can be useful anytime you ne
 
 The APIs are pretty straightforward, so you won't even need to think about "how do I use this thing?!"
 
+
+### Packet logging
+To explore and experiment with the protocol, a lightweight in-browser protocol logger has been developed.
+To enable it, you can issue:
+
+```
+cd node.js
+npm install
+node .
+```
+
+The daemon will then say it is running on localhost:3000... so let's just connect to it: [http://localhost:3000](http://localhost:3000)!! ;-)
+To make it easier to read, the protocol logger serves a html page made with bootstrap, jquery and socket.io to allow a great responsiveness.
+
 ### Packet format
 
 | Position   | Name           | Type    |
